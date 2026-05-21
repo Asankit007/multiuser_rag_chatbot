@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+pymongo
+python-dotenv
+
+langchain
+langchain-community
+langchain-text-splitters
+
+faiss-cpu
+pypdf
+
+sentence-transformers
+transformers
+torch
+accelerate
