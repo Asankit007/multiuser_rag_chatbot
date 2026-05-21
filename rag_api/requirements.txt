@@ -10,7 +10,10 @@ langchain-text-splitters
 
 langchain-groq
 
+
 faiss-cpu
 pypdf
-sentence-transformers
+
+cohere
+langchain-cohere
 
