@@ -167,7 +167,7 @@ Question:
 Answer:
 """
 
-    response = llm.invoke(prompt).strip()
+    response = llm.invoke(prompt).content.strip()
 
     return {
         "question": request.question,

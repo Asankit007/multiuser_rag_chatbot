@@ -8,11 +8,8 @@ langchain
 langchain-community
 langchain-text-splitters
 
+langchain-groq
+
 faiss-cpu
 pypdf
 
-sentence-transformers
-transformers
-
-torch==2.12.0+cpu
---extra-index-url https://download.pytorch.org/whl/cpu
