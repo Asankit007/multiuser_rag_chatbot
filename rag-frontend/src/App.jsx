@@ -28,7 +28,7 @@ function App() {
     setLoading(true);
 
     const response = await axios.post(
-      "http://127.0.0.1:8000/register",
+      "https://multiuser-rag-chatbot.onrender.com/register",
       {
         username,
         password,
@@ -69,7 +69,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        `http://127.0.0.1:8000/login?username=${username}&password=${password}`
+        `https://multiuser-rag-chatbot.onrender.com/login?username=${username}&password=${password}`
       );
 
       const id = response.data.user_id;
@@ -124,7 +124,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        `http://127.0.0.1:8000/upload-pdf?user_id=${userId}`,
+        `https://multiuser-rag-chatbot.onrender.com/upload-pdf?user_id=${userId}`,
         formData,
         {
           headers: {
@@ -164,7 +164,7 @@ function App() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://127.0.0.1:8000/ask",
+        "https://multiuser-rag-chatbot.onrender.com/ask",
         {
           question: question,
           user_id: userId,
