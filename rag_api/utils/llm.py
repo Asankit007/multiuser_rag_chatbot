@@ -4,7 +4,7 @@ from transformers import pipeline
 
 from langchain_community.llms import HuggingFacePipeline
 
-model_name = "google/flan-t5-base"
+model_name = "google/flan-t5-small"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
