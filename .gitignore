@@ -1,0 +1,41 @@
+# -----------------------------
+# Python Virtual Environment
+# -----------------------------
+ankit/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# -----------------------------
+# Backend Generated Files
+# -----------------------------
+rag_api/uploads/
+rag_api/vectordb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# React / Vite
+# -----------------------------
+rag-frontend/node_modules/
+rag-frontend/dist/
+
+# Logs
+npm-debug.log*
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
